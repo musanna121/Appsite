@@ -44,11 +44,10 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div className="">
+            <div className="bg-[#f5f5f5]">
                 <h3 className='text-5xl font-bold text-[#8a59ec] mb-10'>Trending Apps</h3>
                 <Apps apps={apps}></Apps>
             </div>
-                
         </div>
     );
 };
