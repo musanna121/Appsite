@@ -45,7 +45,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className="">
-                <h3 className='text-5xl font-bold text-[#8a59ec]'>Trending Apps</h3>
+                <h3 className='text-5xl font-bold text-[#8a59ec] mb-10'>Trending Apps</h3>
                 <Apps apps={apps}></Apps>
             </div>
                 
