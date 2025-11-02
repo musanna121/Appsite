@@ -2,8 +2,12 @@ import React from 'react';
 import { FaGooglePlay } from 'react-icons/fa6';
 import { FaAppStore } from 'react-icons/fa6';
 import bannerImg from '../../assets/hero.png'
+import { useLoaderData } from 'react-router';
+import Apps from '../Apps/Apps';
 
 const Banner = () => {
+    const apps = useLoaderData();
+    console.log(apps)
     return (
         <div className='text-center space-y-10'>
             <div className="space-y-5">
@@ -42,6 +46,7 @@ const Banner = () => {
             </div>
             <div className="">
                 <h3 className='text-5xl font-bold text-[#8a59ec]'>Trending Apps</h3>
+                <Apps apps={apps}></Apps>
             </div>
                 
         </div>
