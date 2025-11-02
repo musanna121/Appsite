@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://play-lh.googleusercontent.com/bQPGB13unP9LzrnCTdtv96mxYaijlbpI2YodwxdtnBDX_NeVy1V4G1py-etFRseB2ll6=w480-h960-rw",
+    "title": "ChatPro Messenger",
+    "companyName": "TechConnect Inc.",
+    "id": 101,
+    "description": "Fast, secure, and feature-rich messaging for everyone.",
+    "size": 55,
+    "reviews": 152300,
+    "ratingAvg": 4.5,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 8500 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 61800 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/jArSD-kxOa2llPXvqrjRcEJdL4XhjP8-WqEfg9UAlYF8v0qzXAZ0EI5k96l0pf3tDNg=w480-h960-rw",
+    "title": "FitDaily Tracker",
+    "companyName": "HealthWise Solutions",
+    "id": 102,
+    "description": "Your ultimate companion for daily fitness and health tracking.",
+    "size": 78,
+    "reviews": 98750,
+    "ratingAvg": 4.8,
+    "downloads": 12500000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2250 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 65000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/uivetWtQc8iKlEkdLFlaQltypYq6MLP_bI02yE9obliSWRxiHXhpqs3a-tZwNRFdt52L=w480-h960-rw",
+    "title": "PhotoMagic Editor",
+    "companyName": "Creative Studio Apps",
+    "id": 103,
+    "description": "Professional photo editing tools made simple and accessible.",
+    "size": 120,
+    "reviews": 210500,
+    "ratingAvg": 4.2,
+    "downloads": 7500000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 15500 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 55000 },
+      { "name": "5 star", "count": 70000 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/e7/74/96e774a0-71f5-2e72-2efe-e9ba3882b657/AppIcon-1x_U007emarketing-0-10-0-85-220-0.png/434x0w.webp",
+    "title": "GameZone Pro",
+    "companyName": "PixelPlay Games",
+    "id": 104,
+    "description": "A collection of fun, challenging arcade games.",
+    "size": 95,
+    "reviews": 85000,
+    "ratingAvg": 3.9,
+    "downloads": 25000000,
+    "ratings": [
+      { "name": "1 star", "count": 18000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 22000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/EYNMhyt9ccsNpKbuZmdT7eyjK7YNTq4YtPPsXXxBiFdT3GnPKj75w0rBw8CjoINKM9Q=w480-h960-rw",
+    "title": "MoneyManager X",
+    "companyName": "Finance Future Ltd.",
+    "id": 105,
+    "description": "Budgeting and expense tracking simplified for financial freedom.",
+    "size": 40,
+    "reviews": 120500,
+    "ratingAvg": 4.6,
+    "downloads": 8900000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 38000 },
+      { "name": "5 star", "count": 65000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/S5cHQc3S-_idZUyHtxxup7PlZ1mr7kjYVkuiB8klEIqm2OdotHkK1Dwyym-HorMDSbc=w480-h960-rw",
+    "title": "TravelMate Planner",
+    "companyName": "Global Journey Co.",
+    "id": 106,
+    "description": "Plan your next trip, discover hidden gems, and book effortlessly.",
+    "size": 150,
+    "reviews": 55000,
+    "ratingAvg": 4.4,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 4500 },
+      { "name": "3 star", "count": 10500 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 20000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/IcDsexlkxz1YieSMVMBZubBDI7B43Q7lbWEYmKK4PuFgpyIR60rTKgDamDWxL7rGWaM=w480-h960-rw",
+    "title": "CookEasy Recipes",
+    "companyName": "Kitchen Coders",
+    "id": 107,
+    "description": "Thousands of recipes with step-by-step instructions and cooking videos.",
+    "size": 85,
+    "reviews": 180000,
+    "ratingAvg": 4.7,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 120000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/VVQjniAthdwJzuiziI0VuKm1HfBiQXcnEsqu8OuIAxjmEJ4q2YPQjEduWWgaUj04_Q=w480-h960-rw",
+    "title": "LearnLang Pro",
+    "companyName": "Lingua Software",
+    "id": 108,
+    "description": "The fastest and most fun way to learn a new language.",
+    "size": 65,
+    "reviews": 75000,
+    "ratingAvg": 4.1,
+    "downloads": 9500000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "5 star", "count": 17000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/4Hs2uDuLlCpGonelR_EV-286goi_OjCC3oiEn2nZhzUZ6woZWbFHJoacldz7QQd22sQ=w480-h960-rw",
+    "title": "WeatherPlus Live",
+    "companyName": "SkyView Data",
+    "id": 109,
+    "description": "Accurate hourly and 7-day forecasts with live radar.",
+    "size": 30,
+    "reviews": 350000,
+    "ratingAvg": 4.9,
+    "downloads": 75000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 290000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/2VLgX1jkNd8aZM4RXmYNIcbBKB9MwfGNHB8O0l_wivyUrq46kTeTd0yqOKEP-ouTAlb4=w480-h960-rw",
+    "title": "WorkDesk Suite",
+    "companyName": "Enterprise Tools Inc.",
+    "id": 110,
+    "description": "All-in-one platform for team collaboration and project management.",
+    "size": 200,
+    "reviews": 45000,
+    "ratingAvg": 3.5,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/jKdDBNrOHd51vRcjlPUUAZ-Qx2dHFs_VR4ZkDPf3WY7ropwoUpXAPe3Jg-hmz-iqS6cu=w480-h960-rw",
+    "title": "MusicStream Unlimited",
+    "companyName": "SoundWave Media",
+    "id": 111,
+    "description": "Stream millions of songs ad-free anytime, anywhere.",
+    "size": 110,
+    "reviews": 400000,
+    "ratingAvg": 4.3,
+    "downloads": 90000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 170000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/0noxx3BQTTYS6xBHdXeTINLjDMGrSIiB-0F05PMOSC1-_PNPwBL7w_ZUL0-RoJl-4Qs=w480-h960-rw",
+    "title": "PuzzleMaster Quest",
+    "companyName": "MindGames Dev",
+    "id": 112,
+    "description": "Thousands of brain-teasing puzzles and logic challenges.",
+    "size": 60,
+    "reviews": 30000,
+    "ratingAvg": 4.0,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 7500 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/5ly7Kw1781-CTtIcXNHMwcL8qTsnsmne-J40AoymcUuPCUpf5_GKhaa4QGixUwa0xOA=w480-h960-rw",
+    "title": "HomeDesign 3D",
+    "companyName": "Aesthetic Software",
+    "id": 113,
+    "description": "Design and visualize your dream home in stunning 3D.",
+    "size": 350,
+    "reviews": 15000,
+    "ratingAvg": 3.7,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/Yg-Rr5FUzm0T3eh0tG3UCh2oAtL8rT-w3ByOovqBesa_66b7zzAnxkSq0purVHND0pw=w480-h960-rw",
+    "title": "NewsFlash Daily",
+    "companyName": "Global News Network",
+    "id": 114,
+    "description": "Breaking news, personalized feeds, and in-depth articles.",
+    "size": 45,
+    "reviews": 250000,
+    "ratingAvg": 4.6,
+    "downloads": 45000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 140000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/tw_coGKgk1K_zO-Ypf9zBKV1s-KT3dYN1MIUxIqtnbfmON5x_YmuoAr31gE4oSfJHNtA-aStTd-qe9R8S6NVyA=w480-h960-rw",
+    "title": "CoderPad IDE",
+    "companyName": "DevTools Labs",
+    "id": 115,
+    "description": "A lightweight mobile code editor and IDE for developers on the go.",
+    "size": 90,
+    "reviews": 22000,
+    "ratingAvg": 4.5,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 11000 }
+    ]
+  }
+]
