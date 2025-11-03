@@ -9,7 +9,7 @@ const Banner = () => {
     const apps = useLoaderData();
     console.log(apps)
     return (
-        <div className='text-center space-y-10'>
+        <div className='text-center space-y-10 bg-[#f5f5f5]'>
             <div className="space-y-5">
                 <h3 className='text-5xl font-bold pt-10'>We Build</h3>
                 <h3 className='text-5xl font-bold'><span className='text-[#8a59ec]'>Productive </span>Apps</h3>
