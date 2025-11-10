@@ -18,8 +18,8 @@ const Banner = () => {
                      ideas into digital experiences that truly make an impact.</p>
             </div>
             <div className="flex justify-center gap-5">
-                <button className='btn flex items-center'><FaGooglePlay/>Google Play</button>
-                <button className='btn flex items-center'><FaAppStore/>App Store</button>
+                <button className='btn flex items-center bg-white'><FaGooglePlay/>Google Play</button>
+                <button className='btn flex items-center bg-white'><FaAppStore/>App Store</button>
             </div>
             <div className="flex justify-center mb-0">
                 <img src={bannerImg} className='' alt="" />

@@ -8,7 +8,7 @@ const Rating = ({ratings}) => {
     const data = ratings;
   return (
     <div style={{ width: "100%", height: 250 }}>
-      <h4 style={{ marginBottom: "10px" }}>Ratings</h4>
+      {/* <h4 style={{ marginBottom: "10px" }}>Ratings</h4> */}
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           data={data}
