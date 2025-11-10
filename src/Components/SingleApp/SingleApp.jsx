@@ -1,11 +1,13 @@
 import {FaDownload} from 'react-icons/fa';
 import { FaStar } from 'react-icons/fa6';
+import { Link } from 'react-router';
 
 const SingleApp = ({app}) => {
-    const {image, downloads, title} = app
+    const {image, id, downloads, title} = app
     return (
         <div>
-            <div className="shadow-sm bg-white rounded-3xl hover:cursor-pointer">
+            <Link to={`/appdetails/${id}`}>
+                <div className="shadow-sm bg-white rounded-3xl hover:cursor-pointer">
              <img className='p-4 rounded-4xl'
                 src={image} />
                 <h3 className='font-bold text-xl text-left ml-5'>{title}</h3>
@@ -16,6 +18,8 @@ const SingleApp = ({app}) => {
                 </div>
             </div>
             </div>
+            </Link>
+            
         </div>
     );
 };
