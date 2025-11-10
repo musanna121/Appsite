@@ -11,7 +11,7 @@ const AppDetails = () => {
     const data = useLoaderData();
     const appData = data.find((app)=> app.id === appId)
     console.log(appData);
-    const {image, title, companyName, ratings, description, downloads} = appData
+    const {image, title, companyName, ratings, description, downloads, size} = appData
     return (
         <div className="bg-[#f5f5f5]">
         <div className='w-11/12 mx-auto'>
@@ -47,7 +47,9 @@ const AppDetails = () => {
                         </div>
                         
                     </div>
+                    <button className='btn mt-7 bg-[#03c551] text-white font-bold '>Install Now ({size}MB)</button>
                 </div>
+                
            </div>
            
            <div className="border-t-2 border-t-gray-300 border-b-2 border-b-gray-300 pb-5 mb-5">
