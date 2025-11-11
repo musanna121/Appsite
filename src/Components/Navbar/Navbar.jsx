@@ -1,11 +1,29 @@
-// import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router';
 import logo from '../../assets/logo.png'
 import { FaGithub } from 'react-icons/fa';
 
-
+  
 const Navbar = () => {
-    // const clicked = useState(true)
+    const [clicked, setClicked] = useState(false)
+    
+const [apps, setApps] = useState(false)
+const [install, setInstall] = useState(false)
+const handleClick = () => {
+    setApps(false)
+    setInstall(false)
+    setClicked(!clicked);
+  };
+const appClicked = () =>{
+    setClicked(false);
+    setInstall(false)
+    setApps(!apps)
+}
+const installClick = () =>{
+    setClicked(false);
+    setApps(false);
+    setInstall(!install)
+}
     return (
         <div className='bg-[#f5f5f5]'>
             <div className="navbar shadow-sm">
@@ -33,9 +51,9 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 font-bold">
-                <li className='text-[#8a59ec] font-bold'><Link to={'/'}>Home</Link></li>
-                <li className='active:bg-green-700'><Link to={'/apps'}>Apps</Link></li>
-                <li><Link to={'/installation'}>Installation</Link></li>
+                <li onClick={handleClick} className={` ${clicked? 'text-[#8a59ec] font-bold' : 'font-bold'}`}><Link to={'/'}>Home</Link></li>
+                <li onClick={appClicked} className={` ${apps? 'text-[#8a59ec] font-bold' : 'font-bold'}`}><Link to={'/apps'}>Apps</Link></li>
+                <li onClick={installClick} className={` ${install? 'text-[#8a59ec] font-bold' : 'font-bold'}`}><Link to={'/installation'}>Installation</Link></li>
                 </ul>
             </div>
             <div className="navbar-end mr-10">
