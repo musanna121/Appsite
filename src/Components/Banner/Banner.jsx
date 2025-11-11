@@ -7,7 +7,6 @@ import Apps from '../Apps/Apps';
 
 const Banner = () => {
     const apps = useLoaderData();
-    console.log(apps)
     return (
         <div className='text-center space-y-10 bg-[#f5f5f5]'>
             <div className="space-y-5">

@@ -1,10 +1,11 @@
-import React from 'react';
+// import React, { useState } from 'react';
 import { Link } from 'react-router';
 import logo from '../../assets/logo.png'
 import { FaGithub } from 'react-icons/fa';
 
 
 const Navbar = () => {
+    // const clicked = useState(true)
     return (
         <div className='bg-[#f5f5f5]'>
             <div className="navbar shadow-sm">
@@ -33,7 +34,7 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 font-bold">
                 <li className='text-[#8a59ec] font-bold'><Link to={'/'}>Home</Link></li>
-                <li><Link to={'/apps'}>Apps</Link></li>
+                <li className='active:bg-green-700'><Link to={'/apps'}>Apps</Link></li>
                 <li><Link to={'/installation'}>Installation</Link></li>
                 </ul>
             </div>

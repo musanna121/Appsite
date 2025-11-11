@@ -1,4 +1,3 @@
-import React from 'react';
 import Rating from '../../Components/Rating/Rating';
 import { FaDownload, FaStar} from 'react-icons/fa';
 import { useLoaderData, useParams } from 'react-router';
