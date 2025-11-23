@@ -15,8 +15,6 @@ const Installation = () => {
             </div>
             <div className="w-11/12 mx-auto grid gap-3">
             <InstalledAppsView></InstalledAppsView>
-            <InstalledAppsView></InstalledAppsView>
-            <InstalledAppsView></InstalledAppsView>
             </div>
         </div>
     );

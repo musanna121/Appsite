@@ -2,8 +2,10 @@ import {FaDownload} from 'react-icons/fa';
 import { FaStar } from 'react-icons/fa6';
 import { Link } from 'react-router';
 
+
 const SingleApp = ({app}) => {
     const {image, id, downloads, title} = app
+    
     return (
         <div>
             <Link to={`/appdetails/${id}`}>

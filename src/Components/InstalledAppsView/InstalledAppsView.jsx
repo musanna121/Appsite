@@ -1,7 +1,9 @@
 import React from 'react';
 import { FaDownload, FaStar } from 'react-icons/fa';
 
-const InstalledAppsView = () => {
+
+const InstalledAppsView = ({appList}) => {
+    console.log(appList)
     return (
         <div>
             <div className="flex items-center justify-between p-4 bg-white border border-gray-200 rounded-lg shadow-sm">
@@ -31,7 +33,7 @@ const InstalledAppsView = () => {
             </div>
             <button 
                 className="px-6 py-2 text-white font-medium bg-green-500 rounded-full hover:bg-green-600 transition duration-150 ease-in-out shadow-md"
-                onClick={() => console.log('Uninstall clicked')}>
+                >
                 Uninstall
             </button>
             </div>

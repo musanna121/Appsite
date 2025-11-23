@@ -2,15 +2,21 @@ import Rating from '../../Components/Rating/Rating';
 import { FaDownload, FaStar} from 'react-icons/fa';
 import { useLoaderData, useParams } from 'react-router';
 import { FaThumbsUp } from 'react-icons/fa6';
+import { useState } from 'react';
 
 const AppDetails = () => {
     const {id} = useParams();
     const appId = parseInt(id);
-    console.log(appId);
+    // console.log(appId);
     const data = useLoaderData();
     const appData = data.find((app)=> app.id === appId)
     console.log(appData);
     const {image, title, companyName, ratings, description, downloads, size} = appData
+    const [appList, setAppList] = useState([])
+    const pushArray = (appId) =>{
+        setAppList([...appList, appId])}
+    console.log(appList)
+    
     return (
         <div className="bg-[#f5f5f5]">
         <div className='w-11/12 mx-auto'>
@@ -46,7 +52,7 @@ const AppDetails = () => {
                         </div>
                         
                     </div>
-                    <button className='btn mt-7 bg-[#03c551] text-white font-bold '>Install Now ({size}MB)</button>
+                    <button onClick={()=>pushArray(appData.id)} className='btn mt-7 bg-[#03c551] text-white font-bold '>Install Now ({size}MB)</button>
                 </div>
                 
            </div>
@@ -61,7 +67,6 @@ const AppDetails = () => {
             <p className='pb-5'>{description}</p>
             <p className='pb-5'>{description}</p>
            </div>
-           
         </div></div>
     );
 };
